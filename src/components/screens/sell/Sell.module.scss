@@ -1,0 +1,17 @@
+.sell {
+	@apply w-full pt-40;
+
+	h1 {
+		@apply text-black text-[45px] font-semibold text-center;
+	}
+
+	.not-access {
+		@apply text-center text-xl mt-16 mb-[264px];
+	}
+
+	.form {
+		@apply flex justify-between mt-[153px];
+	}
+}
+
+// 7/12 + 1/3

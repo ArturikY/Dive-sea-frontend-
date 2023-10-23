@@ -1,0 +1,19 @@
+.register-inputs {
+	@apply mt-6;
+
+	.input-group {
+		@apply flex justify-between;
+	}
+
+	.input {
+		@apply mb-8;
+
+		label {
+			@apply block text-black text-lg font-medium mb-3 pl-2;
+		}
+
+		input {
+			@apply px-[20px] py-[17px] bg-[#efefef] border-2 border-[#efefef] rounded-xl focus:outline-none focus:border-black;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.product-container {
+	@apply relative mb-16 w-[282px] h-[394.7px];
+
+	.btn-to-cart {
+		@apply bg-black rounded-xl py-3.5 w-[106.1px] transition-all 
+    ease-in-out duration-300 hover:bg-dark z-20 top-[325px] left-[155px] absolute;
+		span {
+			@apply text-white text-base;
+		}
+	}
+}
+
+.product {
+	@apply w-[282px] rounded-3xl bg-white p-4 absolute z-10 transition-all duration-[0.6s] ease-in-out;
+	&:hover {
+		box-shadow: inset 10em 25em 10em 0 #eeeaea;
+	}
+
+	img {
+		@apply rounded-2xl w-[250px] h-[250px];
+		object-fit: cover;
+	}
+
+	h4 {
+		@apply pt-4 pl-1 text-black text-[21px] font-semibold leading-snug;
+	}
+
+	.content {
+		@apply flex justify-between pt-3.5 px-1;
+	}
+
+	.text-info {
+		p {
+			@apply text-[#94a3b8] text-sm;
+		}
+		.price {
+			@apply pt-1 flex items-center;
+			.icon {
+				@apply w-[20px] h-[20px];
+				background-image: url('/public/icons/diamond.svg');
+			}
+			h5 {
+				@apply text-black text-lg font-medium pl-0.5;
+			}
+		}
+	}
+}

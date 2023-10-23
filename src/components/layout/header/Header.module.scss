@@ -1,0 +1,29 @@
+.header {
+	@apply w-full py-8 fixed bg-[#f9f9f9] z-50;
+
+	.content {
+		@apply flex items-center justify-between;
+	}
+
+	.navigate {
+		@apply flex items-center gap-14;
+
+		ul {
+			@apply flex items-center gap-14;
+
+			li {
+				@apply transition-transform ease-in-out duration-500 hover:-translate-y-1;
+			}
+		}
+	}
+
+	.btn-cart {
+		@apply bg-black rounded-xl text-white transition-all  ease-in-out duration-300 hover:bg-dark;
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24.258px;
+		text-transform: uppercase;
+		padding: 10px 24px;
+	}
+}

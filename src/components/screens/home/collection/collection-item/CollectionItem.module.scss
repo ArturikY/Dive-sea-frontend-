@@ -1,0 +1,58 @@
+.collection-item {
+	@apply flex;
+
+	.author {
+		@apply flex items-center gap-3 w-[384px];
+		@apply xl:gap-6;
+
+		img {
+			@apply rounded-full w-[70px] h-[70px];
+			@apply xl:w-[84px] xl:h-[84px];
+		}
+
+		.text-info {
+			h4 {
+				@apply block text-black text-lg font-medium leading-snug;
+				@apply xl:text-xl;
+			}
+
+			p {
+				@apply text-[#64748b] text-base;
+				@apply xl:text-lg;
+			}
+		}
+	}
+
+	.info {
+		@apply flex items-center ml-[20px];
+		@apply xl:ml-[124px];
+		p {
+			@apply text-black text-lg font-medium pl-0.5;
+		}
+
+		.icon {
+			@apply w-[20px] h-[20px];
+			background-image: url('/public/icons/diamond.svg');
+		}
+
+		.volume {
+			@apply w-[160px] flex items-center;
+		}
+
+		.percent {
+			@apply w-[170px] text-green text-lg font-medium;
+		}
+
+		.price {
+			@apply w-[200px] flex items-center;
+		}
+
+		.owners {
+			@apply w-[155px] text-black text-lg font-medium  hidden lg:block;
+		}
+
+		.items {
+			@apply text-black text-lg font-medium hidden lg:block;
+		}
+	}
+}

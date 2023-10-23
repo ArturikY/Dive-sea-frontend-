@@ -1,0 +1,41 @@
+.product-medium {
+	@apply w-[216px] p-3.5 rounded-2xl bg-white text-black;
+	box-shadow: inset 0 0 0 0 #eeeaea,
+		17.5px 11.6px 59.6px 0px rgba(97, 97, 97, 0.25);
+	transition: all 0.6s ease-in-out;
+
+	&:hover {
+		box-shadow: inset 8em 16em 8em 0 #eeeaea;
+	}
+
+	img {
+		@apply w-full h-[164px] rounded-xl;
+	}
+
+	p {
+		@apply text-base font-bold pl-0.5 pt-1.5;
+	}
+
+	h3 {
+		@apply text-xl font-semibold block pl-0.5 pt-1.5;
+	}
+
+	.foot {
+		@apply flex justify-between items-center;
+
+		.price {
+			@apply flex items-center gap-1  pt-1.5;
+			.icon {
+				@apply w-[19px] h-[19px];
+				background-image: url('/public/icons/diamond.svg');
+			}
+			h4 {
+				@apply text-black font-medium text-lg;
+			}
+		}
+
+		.date {
+			@apply pr-3 text-base text-[#888] font-medium;
+		}
+	}
+}

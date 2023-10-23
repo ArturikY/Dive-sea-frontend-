@@ -1,0 +1,94 @@
+.product-detail-item {
+	@apply w-full pt-36;
+
+	.head {
+		@apply flex gap-8 items-center;
+
+		.icon {
+			@apply bg-[#E6E8EC] rounded-full text-2xl w-9 h-9 flex justify-center items-center duration-300 ease-in-out transition-all hover:bg-[#d4d6da];
+		}
+
+		h2 {
+			@apply text-2xl font-semibold;
+		}
+	}
+
+	.content {
+		@apply w-full bg-white rounded-3xl mt-14 p-9 flex justify-between;
+		box-shadow: 17.5px 17.5px 61px 0px rgba(0, 0, 0, 0.12);
+
+		.image {
+			@apply w-[560px] h-[560px] rounded-3xl;
+			object-fit: cover;
+		}
+
+		.text {
+			@apply w-[470px];
+
+			h1 {
+				@apply pt-1 block text-black font-bold text-5xl;
+			}
+
+			main {
+				@apply pt-5 w-[90%] font-normal text-lg h-[220px] overflow-auto;
+				color: rgba(136, 136, 136, 0.7);
+			}
+
+			.author {
+				@apply flex gap-4 pt-4 items-center;
+				img {
+					@apply rounded-full bg-wheat;
+					width: 65px;
+					height: 65px;
+				}
+				.info {
+					p {
+						@apply text-base text-[#8D8D8D] font-normal;
+					}
+					h4 {
+						@apply text-2xl text-black font-medium;
+					}
+				}
+			}
+
+			.for-cart {
+				@apply pt-6 flex justify-between;
+				.price {
+					p {
+						@apply text-[#8C8C8C] text-lg font-normal;
+					}
+					.bid {
+						@apply pt-1.5 flex gap-1 items-center;
+						.icon {
+							background-image: url('/public/icons/diamond.svg');
+							width: 28px;
+							height: 28px;
+						}
+						p {
+							@apply text-black text-3xl font-semibold;
+						}
+					}
+				}
+				.date {
+					p {
+						@apply text-end text-[#8C8C8C] text-lg font-normal;
+					}
+					h5 {
+						@apply block pt-3 text-black text-lg font-normal;
+					}
+				}
+			}
+
+			.btn-container {
+				@apply flex items-end pt-[30px];
+			}
+
+			.btn {
+				@apply w-full h-20 flex justify-center items-center bg-black rounded-[20px] transition-all duration-300 ease-in-out hover:bg-dark;
+				span {
+					@apply text-white text-xl font-normal;
+				}
+			}
+		}
+	}
+}

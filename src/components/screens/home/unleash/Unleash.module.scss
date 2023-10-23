@@ -1,0 +1,56 @@
+.unleash {
+	@apply w-full pt-24;
+
+	.line {
+		@apply w-full h-px border-none bg-[#CBCBCB] mb-20;
+	}
+
+	.content {
+		@apply flex justify-between;
+	}
+
+	.text {
+		@apply w-[328px] xl:w-[461px];
+		h2 {
+			@apply text-[#c5c5c5] text-[45px] font-semibold;
+			@apply text-[32px];
+			b {
+				@apply block text-black;
+			}
+		}
+	}
+
+	.list-advantages {
+		@apply mt-8 xl:mt-11;
+
+		.advantage {
+			@apply flex gap-3 items-center mb-3;
+
+			.icon {
+				@apply text-2xl;
+				/* background-image: url('/public/icons/tick.svg'); */
+			}
+
+			p {
+				@apply text-black opacity-70 text-base leading-8;
+			}
+		}
+	}
+
+	.link {
+		@apply w-[160px] h-[54px] bg-black flex items-center justify-center gap-1 rounded-xl mt-12 transition-all ease-in-out duration-300 hover:bg-dark;
+		@apply xl:mt-16 xl:w-[164px] xl:h-[59px];
+
+		.icon {
+			@apply text-white text-3xl;
+		}
+
+		p {
+			@apply text-white text-base font-normal ml-2;
+		}
+	}
+
+	img {
+		@apply w-[55%];
+	}
+}

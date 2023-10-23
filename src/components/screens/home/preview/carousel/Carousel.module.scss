@@ -1,0 +1,27 @@
+.carousel {
+	@apply pl-12 pt-4;
+
+	.content {
+		@apply flex gap-10 items-center;
+	}
+
+	.buttons {
+		@apply ml-28 -mt-10 flex justify-center items-center gap-8 rounded-xl;
+		background: #fcfcfd;
+		box-shadow: 0px 43px 34.5px -26px rgba(15, 15, 15, 0.12);
+		width: 166px;
+		height: 68.987px;
+
+		button {
+			.icon {
+				@apply text-2xl text-gray transition-all ease-in-out duration-300 hover:text-black;
+			}
+		}
+
+		hr {
+			@apply border-none bg-light-gray opacity-40;
+			width: 2px;
+			height: 26px;
+		}
+	}
+}

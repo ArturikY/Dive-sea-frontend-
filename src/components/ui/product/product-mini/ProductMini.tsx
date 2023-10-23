@@ -1,0 +1,25 @@
+import { FC } from 'react'
+import { Link } from 'react-router-dom'
+import { IProductMini } from './ProductMini.interface'
+import styles from './ProductMini.module.scss'
+import { transformDate } from '../../../../utils/transformDate'
+
+export const ProductMini: FC<IProductMini> = ({ product }) => {
+	return (
+		<div className={styles['product-mini']}>
+			<div className={styles.content}>
+				<div className={styles.info}>
+					<img src={product.image} alt={product.name} />
+					<div className={styles.text}>
+						<h4>{product.name}</h4>
+						<p className={styles.date}>{transformDate(product.date)}</p>
+					</div>
+				</div>
+				<div className={styles.price}>
+					<div className={styles.icon} />
+					<p>{product.price}</p>
+				</div>
+			</div>
+		</div>
+	)
+}

@@ -1,0 +1,21 @@
+.sorting-buttons {
+	@apply flex gap-6 justify-center pt-11;
+	@apply lg:pt-16;
+
+	.btn {
+		@apply border-2 border-black px-3 py-0 rounded-2xl text-black transition-all duration-500 ease-in-out hover:bg-black hover:text-white;
+		@apply lg:px-4 lg:py-4;
+
+		span {
+			@apply flex items-center gap-2.5;
+
+			.icon {
+				@apply text-2xl;
+			}
+
+			p {
+				@apply text-base font-semibold font-inter;
+			}
+		}
+	}
+}

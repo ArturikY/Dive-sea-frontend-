@@ -1,0 +1,57 @@
+.footer {
+	@apply w-full mt-52 bg-black pt-24 pb-20;
+
+	.top-section {
+		@apply flex items-center justify-between;
+
+		.logo {
+			@apply flex items-center gap-2.5;
+
+			img {
+				@apply w-[65px] h-[65px];
+			}
+
+			h4 {
+				@apply text-white;
+				font-size: 30px;
+				font-weight: 600;
+				line-height: 130%;
+			}
+		}
+
+		.navigation {
+			@apply flex items-center gap-16;
+
+			.link {
+				@apply font-normal transition-colors ease-in-out duration-300 hover:text-[#dfdada];
+				color: #b9b9b9;
+				font-family: Inter;
+				font-size: 18px;
+				line-height: 150%;
+				text-transform: capitalize;
+			}
+		}
+	}
+
+	.line {
+		@apply border-none w-full h-px bg-[#818181] opacity-25 mt-9 mb-14;
+	}
+
+	.bottom-section {
+		@apply flex items-center justify-between;
+
+		p {
+			@apply font-inter font-normal text-[#999];
+			font-size: 17px;
+			line-height: 25px;
+		}
+
+		.social-links {
+			@apply flex items-center gap-8;
+
+			.link {
+				@apply text-3xl text-[#535353] transition-colors ease-in-out duration-300 hover:text-white;
+			}
+		}
+	}
+}

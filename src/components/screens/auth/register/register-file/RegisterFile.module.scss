@@ -1,0 +1,16 @@
+.register-file {
+	.avatar-input {
+		@apply relative h-[100px] flex justify-center w-full;
+	}
+
+	.preview {
+		.image {
+			@apply rounded-full;
+			object-fit: cover;
+		}
+	}
+
+	input {
+		@apply absolute top-0 w-[100px] h-full opacity-0 text-[0px] cursor-pointer;
+	}
+}

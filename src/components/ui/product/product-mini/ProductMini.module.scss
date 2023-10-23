@@ -1,0 +1,39 @@
+.product-mini {
+	@apply w-full p-4 bg-white rounded-xl mb-4;
+	box-shadow: -6px 12px 20px 0px rgba(16, 16, 16, 0.15);
+
+	.content {
+		@apply flex justify-between items-center;
+	}
+
+	.info {
+		@apply flex gap-4 items-center;
+
+		img {
+			@apply w-16 h-16 rounded-full;
+		}
+
+		.text {
+			h4 {
+				@apply text-black text-[17px] font-semibold;
+			}
+			p {
+				@apply text-[#9C9C9C] text-sm font-normal;
+			}
+		}
+	}
+
+	.price {
+		@apply pr-4 flex gap-1 items-center;
+
+		.icon {
+			background-image: url('/public/icons/diamond.svg');
+			width: 22px;
+			height: 22px;
+		}
+
+		p {
+			@apply text-black text-xl font-medium;
+		}
+	}
+}

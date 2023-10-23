@@ -1,0 +1,37 @@
+.collection {
+	@apply mt-48;
+
+	h2 {
+		@apply text-center text-black text-[36px] font-semibold;
+		@apply xl:text-[45px];
+	}
+
+	.head {
+		@apply pt-20 flex justify-between;
+
+		.another {
+			@apply flex gap-24;
+			.price {
+			}
+			.owners {
+				@apply hidden lg:block;
+			}
+			.items {
+				@apply hidden lg:block;
+			}
+		}
+
+		p {
+			@apply text-[#93989a] text-base font-medium;
+			@apply lg:text-lg;
+		}
+	}
+
+	.list-collection {
+		@apply pt-10;
+	}
+
+	.line {
+		@apply bg-[#ebe9e9] border-none h-px w-full mt-8 mb-9;
+	}
+}

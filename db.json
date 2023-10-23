@@ -1,0 +1,194 @@
+{
+	"collection": [
+		{
+			"id": 1,
+			"author": {
+				"image": "/public/collection/alex.png",
+				"name": "Alex Carting",
+				"nickname": "Alex"
+			},
+			"volume": "9,124",
+			"percent": 27.78,
+			"price": "6",
+			"owners": 2.3,
+			"items": 920
+		},
+		{
+			"id": 2,
+			"author": {
+				"image": "/public/collection/michael.png",
+				"name": "Michael Balak",
+				"nickname": "Michao"
+			},
+			"volume": "9,124",
+			"percent": 11.21,
+			"price": "7,9",
+			"owners": 2.1,
+			"items": 870
+		},
+		{
+			"id": 3,
+			"author": {
+				"image": "/public/collection/duckly.png",
+				"name": "Duckly Duck",
+				"nickname": "Duck"
+			},
+			"volume": "7,202",
+			"percent": 10.78,
+			"price": "5,5",
+			"owners": 1.9,
+			"items": 770
+		},
+		{
+			"id": 4,
+			"author": {
+				"image": "/public/collection/union.png",
+				"name": "Union Payl",
+				"nickname": "Union"
+			},
+			"volume": "6,500",
+			"percent": 30.12,
+			"price": "4",
+			"owners": 1.8,
+			"items": 750
+		}
+	],
+	"marketplace": [
+		{
+			"id": 1,
+			"author": {
+				"firstName": "Alex",
+				"lastName": "Carting",
+				"nickname": "Alex",
+				"avatar": "/public/collection/alex.png"
+			},
+			"name": "Sun-Glass",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 3.75,
+			"size": "1000x1000",
+			"image": "/public/products/sun-glass.png",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 31, 2023 at 12:08"
+		},
+		{
+			"id": 2,
+			"author": {
+				"firstName": "Union",
+				"lastName": "Payl",
+				"nickname": "Union",
+				"avatar": "/public/collection/union.png"
+			},
+			"name": "Bitcoin",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 2.5,
+			"size": "1000x1000",
+			"image": "/public/products/bitcoin.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 31, 2023 at 15:42"
+		},
+		{
+			"id": 3,
+			"author": {
+				"firstName": "Michael",
+				"lastName": "Balak",
+				"nickname": "Michao",
+				"avatar": "/public/collection/michael.png"
+			},
+			"name": "Azure",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 3.4,
+			"size": "1000x1000",
+			"image": "/public/products/azure.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 28, 2023 at 6:08"
+		},
+		{
+			"id": 4,
+			"author": {
+				"firstName": "Duckly",
+				"lastName": "Duck",
+				"nickname": "Duck",
+				"avatar": "/public/collection/duckly.png"
+			},
+			"name": "Cube",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 2.8,
+			"size": "1000x1000",
+			"image": "/public/products/cube.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 31, 2023 at 14:41"
+		},
+		{
+			"id": 5,
+			"author": {
+				"firstName": "Union",
+				"lastName": "Payl",
+				"nickname": "Union",
+				"avatar": "/public/collection/union.png"
+			},
+			"name": "NuEvey",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 2.75,
+			"size": "1000x1000",
+			"image": "/public/products/nu-evey.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 31, 2023 at 14:41"
+		},
+		{
+			"id": 6,
+			"author": {
+				"firstName": "Alex",
+				"lastName": "Carting",
+				"nickname": "Alex",
+				"avatar": "/public/collection/alex.png"
+			},
+			"name": "Bind",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 3.5,
+			"size": "1000x1000",
+			"image": "/public/products/bind.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 31, 2023 at 12:08"
+		},
+		{
+			"id": 7,
+			"author": {
+				"firstName": "Michael",
+				"lastName": "Balak",
+				"nickname": "Michao",
+				"avatar": "/public/collection/michael.png"
+			},
+			"name": "Sunrise",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 3.4,
+			"size": "1000x1000",
+			"image": "/public/products/sunrise.png",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "Aug 28, 2023 at 6:08"
+		},
+		{
+			"id": 8,
+			"author": {
+				"firstName": "Lieonel",
+				"lastName": "Viht",
+				"nickname": "Lie",
+				"avatar": "/public/collection/lie.png"
+			},
+			"name": "Purplie",
+			"description": "Introducing the latest addition to the NFT world, a stunning glass NFT that is truly one-of-a-kind. Every angle of this NFT offers a unique and captivating experience, as the light refracts and dances across.",
+			"price": 4,
+			"size": "1000x1000",
+			"image": "/public/products/purplie.jpg",
+			"putOnSale": true,
+			"directSale": false,
+			"date": "May 16, 2022 at 6:08"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@600&display=swap');
+
+@import './nullstyles.scss';
+
+* {
+	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Inter', sans-serif;
+	font-family: 'Public Sans', sans-serif; */
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #f9f9f9;
+}
+
+.main__container {
+	@apply my-0 w-auto mx-2.5 sm:max-w-[540px] sm:mx-auto md:max-w-[720px] md:mx-auto lg:max-w-[960px] lg:mx-auto xl:max-w-[1140px] xl:mx-auto 2xl:max-w-[1220px] 2xl:mx-auto;
+
+	/* @media (min-width: 1300px) 2xl {
+		& {
+			max-width: 1140px;
+		}
+	}
+
+	@media (min-width: 1200px) xl {
+		& {
+			max-width: 960px;
+		}
+	}
+
+	@media (min-width: 1000px) lg {
+		& {
+			max-width: 720px;
+		}
+	}
+
+	@media (min-width: 760px) md {
+		& {
+			max-width: 540px;
+		}
+	}
+
+	@media (min-width: 575px) sm {
+		& {
+			width: auto;
+			margin: 0 10px;
+		}
+	} */
+}
