@@ -11,6 +11,8 @@ import { Unleash } from './unleash/Unleash'
 
 export const Home: FC = () => {
 	window.scrollTo(0, 0)
+
+	console.log(process.env.REACT_APP_URL)
 	return (
 		<section className={styles.home}>
 			<Header isHome={true} isMarketplace={false} isSell={false} />
