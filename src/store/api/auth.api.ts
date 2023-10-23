@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/dist/query/react'
 import { ILogin } from '../../components/screens/auth/login/Login.interface'
 import { IUser } from '../../types/user.interface'
 
-const API_URL = process.env.REACT_API_URL
+const API_URL = process.env.REACT_APP_URL
 
 export const authApi = createApi({
 	reducerPath: 'auth_api',
