@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { ICollection } from '../../components/screens/home/collection/Collection.interface'
 
-const API_URL = process.env.REACT_APP_URL
+const API_URL = 'https://dive-sea-backend.netlify.app'
 
 export const collectionApi = createApi({
 	reducerPath: 'collection_api',
