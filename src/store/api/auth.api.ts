@@ -1,9 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/dist/query/react'
 import { ILogin } from '../../components/screens/auth/login/Login.interface'
-import { IMarketplaceItem } from '../../components/screens/marketplace/marketplace-item/MarketplaceItem.interface'
 import { IUser } from '../../types/user.interface'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = process.env.REACT_API_URL
 
 export const authApi = createApi({
 	reducerPath: 'auth_api',

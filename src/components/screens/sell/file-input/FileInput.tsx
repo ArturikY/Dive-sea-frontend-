@@ -37,7 +37,7 @@ export const FileInput: FC<IFileInput> = ({
 			<div className={styles.preview}>
 				{image ? (
 					<img
-						src={`http://localhost:5000${image}`}
+						src={`${process.env.REACT_API_URL}${image}`}
 						width={400}
 						className={styles.image}
 						alt='file'

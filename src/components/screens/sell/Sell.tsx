@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
-import { ChangeEvent, FC, useState } from 'react'
+import { FC, useState } from 'react'
 import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 import axios from '../../../axios'
 import { titleAnimation } from '../../../motion-animations/titleAnimation'
 import { IRequestProduct } from '../../../types/requestProduct.interface'
@@ -10,8 +11,6 @@ import { IProduct } from '../../ui/product/Product.interface'
 import styles from './Sell.module.scss'
 import { FileInput } from './file-input/FileInput'
 import { SellItem } from './sell-item/SellItem'
-import { useNavigate } from 'react-router-dom'
-import { useCreateProductMutation } from '../../../store/api/marketplace.api'
 
 export const Sell: FC = () => {
 	window.scrollTo(0, 0)
@@ -23,7 +22,6 @@ export const Sell: FC = () => {
 		formState: { errors },
 	} = useForm<IProduct>()
 	const [image, setImage] = useState<string>('')
-	const [createProductMutation] = useCreateProductMutation()
 
 	const createProduct = async (data: IProduct) => {
 		const newProduct: IRequestProduct = {

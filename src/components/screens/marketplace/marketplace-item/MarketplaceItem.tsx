@@ -3,20 +3,18 @@ import { motion } from 'framer-motion'
 import { FC, useState } from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
+import { blockAnimation } from '../../../../motion-animations/blockAnimation'
 import { useGetMarketplaceQuery } from '../../../../store/api/marketplace.api'
 import { Product } from '../../../ui/product/Product'
 import { IProduct } from '../../../ui/product/Product.interface'
 import { SortingButtons } from '../sorting-buttons/SortingButtons'
 import { IMarketplaceItem } from './MarketplaceItem.interface'
 import styles from './MarketplaceItem.module.scss'
-import { blockAnimation } from '../../../../motion-animations/blockAnimation'
 
 export const MarketplaceItem: FC<IMarketplaceItem> = ({
 	title,
 	isBigMargin,
 	isLink,
-	isPagination,
-	isLimit
 }) => {
 	const [conditionString, setConditionString] = useState('')
 
@@ -70,10 +68,6 @@ export const MarketplaceItem: FC<IMarketplaceItem> = ({
 							</div>
 						</Link>
 					</div>
-					{/* <Pagination
-						isExist={isPagination}
-						setConditionString={setConditionString}
-					/> */}
 				</div>
 			</div>
 		</motion.section>

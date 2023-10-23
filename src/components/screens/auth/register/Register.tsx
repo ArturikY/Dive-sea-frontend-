@@ -1,12 +1,12 @@
-import { ChangeEvent, FC, useState } from 'react'
+import { FC, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { Link, Navigate } from 'react-router-dom'
 import axios from '../../../../axios'
 import { IUser } from '../../../../types/user.interface'
 import { IRegister } from './Register.interface'
 import styles from './Register.module.scss'
-import { RegisterInputs } from './register-inputs/RegisterInputs'
 import { RegisterFile } from './register-file/RegisterFile'
+import { RegisterInputs } from './register-inputs/RegisterInputs'
 
 export const Register: FC = () => {
 	const {

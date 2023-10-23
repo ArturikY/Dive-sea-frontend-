@@ -27,7 +27,7 @@ export const ModalWindow: FC<IModalWindow> = ({ open, handleClose }) => {
 		show: alert,
 	})
 
-	const submitForm = (data: ICart) => {
+	const submitForm = () => {
 		if (cart.length !== 0) {
 			setAlert(true)
 

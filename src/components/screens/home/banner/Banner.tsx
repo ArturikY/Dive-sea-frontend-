@@ -2,8 +2,8 @@ import { FC } from 'react'
 
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import styles from './Banner.module.scss'
 import { bannerAnimation } from '../../../../motion-animations/bannerAnimation'
+import styles from './Banner.module.scss'
 
 export const Banner: FC = () => {
 	return (

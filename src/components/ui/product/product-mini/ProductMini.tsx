@@ -1,8 +1,7 @@
 import { FC } from 'react'
-import { Link } from 'react-router-dom'
+import { transformDate } from '../../../../utils/transformDate'
 import { IProductMini } from './ProductMini.interface'
 import styles from './ProductMini.module.scss'
-import { transformDate } from '../../../../utils/transformDate'
 
 export const ProductMini: FC<IProductMini> = ({ product }) => {
 	return (

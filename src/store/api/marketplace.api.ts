@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/dist/query/react'
 import { IProduct } from '../../components/ui/product/Product.interface'
 import { IRequestProduct } from '../../types/requestProduct.interface'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = process.env.REACT_API_URL
 
 export const marketplaceApi = createApi({
 	reducerPath: 'marketplace_api',

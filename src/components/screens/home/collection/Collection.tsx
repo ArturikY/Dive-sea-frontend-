@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
 import { motion } from 'framer-motion'
+import { blockAnimation } from '../../../../motion-animations/blockAnimation'
 import { useGetCollectionQuery } from '../../../../store/api/collection.api'
 import { ICollection } from './Collection.interface'
 import styles from './Collection.module.scss'
 import { CollectionItem } from './collection-item/CollectionItem'
-import { blockAnimation } from '../../../../motion-animations/blockAnimation'
 
 export const Collection: FC = () => {
 	const { data: collection, isLoading, isError } = useGetCollectionQuery(null)
